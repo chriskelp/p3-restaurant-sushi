@@ -1,0 +1,403 @@
+
+
+/*@media only screen and(max-width: 320px){
+*/
+
+body {
+ 
+  background:lightgray;
+  text-align:center;
+  font-family: 'Helvetica', 'Arial';
+  letter-spacing: .27em;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+}
+
+header{
+	position: fixed;
+	margin:auto;
+	background-color:white;
+	width:100%;
+
+}
+
+nav{
+	margin-top:0px;
+	width:100%;
+	border-bottom:solid black 1px;
+	height:50px;
+	background:white;
+}
+
+#logo{
+	border-bottom:solid black 7px;
+	background:white;
+	position:relative;
+
+
+	
+
+}
+
+
+nav ul li{
+	
+	display: inline;
+}
+
+nav ul li:hover{
+	border-bottom:solid 1px red;
+}
+
+
+ul, li{
+	list-style: none;
+}
+
+
+.social-icons li{
+	display: inline;
+}
+
+#contact-info{
+	float:left;
+	height:300px;
+	width:100%;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	margin-bottom:5px;
+ 	text-align: center;
+ 	padding-top: 125px;
+ 	padding-bottom: 8px;
+ 	background-color:red;
+	list-style: none;
+	margin-top:200px;
+
+}
+
+#map{
+	background-color:white;
+	margin-top:5px;
+	
+}
+
+
+#menu-description {
+	margin-left:auto;
+ 	margin-right:auto;
+	text-align: center;
+	background-color:white;
+	position:relative;
+}
+
+.menu-logo{
+	border-bottom:solid black 2px;
+	float:left;
+	font-size:2.5em;
+	margin-left:10px;
+
+}
+
+
+
+.categories{
+	float:left;
+	border-bottom:solid black 2px;
+	margin-left:10px;
+
+	
+
+}
+
+#menu-description ul{
+	padding-bottom:50px;
+}
+
+.food-info li{
+	width:60px;
+	height:45px;
+	font-weight:bold;
+	padding: 10px;
+}
+
+.prices li{
+	width:25%;
+	height:45px;
+	font-weight:bold;
+}
+
+#menu-description ul li{
+	display:inline;
+	border:solid black 2px;
+	float:right;
+	margin-right:5px;
+	width:20%;
+	font-size:.5em;
+	
+}
+
+
+#red{
+	background-color:red;
+}
+
+#lightblue{
+	background-color:lightblue;
+}
+
+#yellow{
+	background-color:yellow;
+}
+
+#green{
+	background-color:green;
+}
+
+
+
+.item-1,.item-2,.item-3,.item-4{
+	
+	border-bottom:solid black 0.25em;
+	margin-top: 5px;
+	text-align:left;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+.item-1{
+	background-color:yellow;
+}
+
+.item-2{
+	background-color:lightblue;
+}
+
+.item-3{
+	background-color:red;
+}
+
+.item-4{
+	background-color:green;
+
+}
+
+.item-1 ul,.item-2 ul,.item-3 ul,.item-4 ul{
+	list-style:none;
+	background-color: white;
+	margin:20px;
+	border-top-left-radius: 20px;
+}
+
+
+
+.fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; }
+
+/*}
+
+
+
+
+
+
+
+@media only screen and(max-width: 768px){
+
+
+body {
+ 
+  background:lightgray;
+  text-align:center;
+  font-family: 'Helvetica', 'Arial';
+  letter-spacing: .27em;
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+}
+
+header{
+	position: fixed;
+	margin:auto;
+	background-color:white;
+	width:100%;
+
+}
+
+nav{
+	margin-top:0px;
+	width:100%;
+	border-bottom:solid black 1px;
+	height:50px;
+}
+
+#logo{
+	border-bottom:solid black 7px;
+	
+	position:relative;
+
+	
+
+}
+
+
+nav ul li{
+	
+	display: inline;
+}
+
+nav ul li:hover{
+	border-bottom:solid 1px red;
+}
+
+
+ul, li{
+	list-style: none;
+}
+
+
+.social-icons li{
+	display: inline;
+}
+
+#contact-info{
+	float:left;
+	height:300px;
+	width:100%;
+	margin-left:auto;
+ 	margin-right:auto;
+ 	margin-bottom:5px;
+ 	text-align: center;
+ 	padding-top: 125px;
+ 	padding-bottom: 8px;
+ 	background-color:red;
+	list-style: none;
+	margin-top:200px;
+
+}
+
+#map{
+	background-color:white;
+	margin-top:5px;
+	
+}
+
+
+#menu-description {
+	margin-left:auto;
+ 	margin-right:auto;
+	text-align: center;
+	background-color:white;
+}
+
+.menu-logo{
+	border-bottom:solid black 2px;
+	float:left;
+	font-size:2.5em;
+	margin-left:10px;
+
+}
+
+
+
+.categories{
+	float:left;
+	background-color: orange;
+	margin-left:10px;
+
+	
+
+}
+
+#menu-description ul{
+	padding-bottom:50px;
+}
+
+.food-info li{
+	width:60px;
+	height:45px;
+}
+
+.prices li{
+	width:25%;
+	height:45px;
+}
+
+#menu-description ul li{
+	display:inline;
+	border:solid black 2px;
+	float:right;
+	margin-right:5px;
+	width:20%;
+	font-size:.5em;
+	
+}
+
+
+#red{
+	background-color:red;
+}
+
+#lightblue{
+	background-color:lightblue;
+}
+
+#yellow{
+	background-color:yellow;
+}
+
+#green{
+	background-color:green;
+}
+
+
+
+.item-1,.item-2,.item-3,.item-4{
+	
+	border:solid black 0.25em;
+	margin-top: 5px;
+	text-align:left;
+	width:85%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+.item-1{
+	background-color:yellow;
+}
+
+.item-2{
+	background-color:lightblue;
+}
+
+.item-3{
+	background-color:red;
+}
+
+.item-4{
+	background-color:green;
+
+}
+
+.item-1 ul,.item-2 ul,.item-3 ul,.item-4 ul{
+	list-style:none;
+	background-color: white;
+	margin:20px;
+	border-top-left-radius: 20px;
+}
+
+
+
+.fixed {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; }
+
+}*/
